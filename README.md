@@ -28,15 +28,12 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. Create `.env.local` file in project root directory with following environment variables:
 
-1. Run `npm install` to fetch dependencies
-2. Create `.env` file in project root directory with following environment variables:
-
 | Env Variable         | Required        | Value                    | Description
 | -------------------- | --------------- | -------------------------|-------------------------------
 | GOOGLE_CLIENT_ID     | _required_      | -                        | Used for Google SSO 
 | GOOGLE_CLIENT_SECRET | _required_      | -                        | Used for Google SSO
 
-Environment Variables
+2. Run `npm install` to fetch dependencies
 
 To start the development server, run:
 
